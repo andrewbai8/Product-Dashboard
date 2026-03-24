@@ -47,7 +47,7 @@ function displayProducts(products) {
     // Build card
     const card = document.createElement("article");
     card.classList.add("product-card");
-    // Stagger the animation delay for each card
+    // changes animation per delay
     card.style.animationDelay = `${index * 0.12}s`;
 
     const imgWrap = document.createElement("div");
@@ -80,7 +80,7 @@ function displayProducts(products) {
     container.appendChild(card);
   });
 }
-// step 6
+// step 6 this is the reusable error handler
 function handleError(error) {
   console.error(`An error occurred: ${error.message}`);
 }
