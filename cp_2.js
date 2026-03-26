@@ -1,3 +1,5 @@
+
+
 const API= "https://www.course-api.com/javascript-store-products"
 // Step 3
 function fetchProductsThen() {
@@ -80,11 +82,11 @@ function displayProducts(products) {
     container.appendChild(card);
   });
 }
+
 // step 6 this is the reusable error handler
 function handleError(error) {
   console.error(`An error occurred: ${error.message}`);
 }
-
 
 // step 7 (this calls each function)
 fetchProductsThen();
