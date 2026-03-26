@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #1a1614;
+  color: #f0e8d8;
+}
+
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  border-bottom: 2px solid #c0392b;
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.4em;
+  margin: 0 0 8px 0;
+  color: #f0e8d8;
+}
+
+header p {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8a7b6e;
+  margin: 0;
+}
+
