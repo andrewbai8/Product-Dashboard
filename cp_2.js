@@ -18,7 +18,7 @@ function fetchProductsThen() {
         // Step 4
     async function fetchProductsAsync() {
         try {
-            const response = await fetch(API_URL);
+            const response = await fetch(API);
             const products = await response.json();
             displayProducts(products);
             } catch (error) {
